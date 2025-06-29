@@ -651,6 +651,10 @@ body {
 }
 .shop__main_cover:first-child {
   padding-top: 7rem;
+  text-align: center;
+}
+.shop__main_cover:first-child img {
+  width: 90%;
 }
 .shop__main_cover:last-child {
   margin-top: 8rem;
