@@ -645,10 +645,16 @@ body {
 }
 
 .shop__main_cover {
-  padding-top: 7rem;
   width: 100%;
   height: 100%;
   text-align: center;
+}
+.shop__main_cover:first-child {
+  padding-top: 7rem;
+}
+.shop__main_cover:last-child {
+  margin-top: 8rem;
+  padding-bottom: 4rem;
 }
 .shop__main_cover-3 {
   margin-top: 0;
@@ -659,7 +665,6 @@ body {
 .shop__main_cover img {
   display: inline-block;
   width: 100%;
-  height: 80vh;
   object-fit: contain;
 }
 .shop__main_button-cover {
