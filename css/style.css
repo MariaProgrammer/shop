@@ -644,17 +644,29 @@ body {
   font-weight: 400;
 }
 
+.shop__main-wrap {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .shop__main_cover {
-  width: 100%;
-  height: 100%;
-  text-align: center;
+  margin-bottom: 10rem;
+  height: auto;
+}
+.shop__main_cover img {
+  display: inline-block;
+  margin-bottom: 2rem;
 }
 .shop__main_cover:first-child {
   padding-top: 7rem;
   text-align: center;
 }
 .shop__main_cover:first-child img {
-  width: 90%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .shop__main_cover:last-child {
   margin-top: 8rem;
@@ -686,6 +698,28 @@ body {
   border-radius: 1.6rem;
 }
 
+.cover__img-1 {
+  width: 33%;
+}
+
+.cover__img-2 {
+  width: 60%;
+}
+
+.cover__img-3 {
+  width: 35%;
+}
+
+.cover__img-4 {
+  width: 40%;
+  margin-bottom: 0;
+}
+
+.cover__img-5 {
+  width: 15%;
+  margin-bottom: 0;
+}
+
 .about__main {
   padding-top: 12rem;
 }
@@ -701,6 +735,11 @@ body {
 
 .cover-2 {
   margin-bottom: 14rem;
+}
+
+.cover-1 img {
+  display: inline-block;
+  padding: 0 10%;
 }
 
 .error {
